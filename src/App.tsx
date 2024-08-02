@@ -63,7 +63,7 @@ const App = () => {
               </p>
             </div>
           </div>
-          <div className="mt-12 text-5xl font-bold flex items-center">
+          <div className="mt-8 text-5xl font-bold flex items-center">
             <img src={coin} width={44} height={44} />
             <span className="ml-2">{points.toLocaleString()}</span>
           </div>
@@ -135,7 +135,7 @@ const App = () => {
         </div>
 
         <div className="flex-grow flex items-center justify-center">
-          <div className="relative mt-4" onClick={handleClick}>
+          <div className="relative mt-2" onClick={handleClick}>
             <img src={gentleman} width={256} height={256} alt="notcoin" />
             {clicks.map((click) => (
               <div
